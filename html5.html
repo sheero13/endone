@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Features Demonstration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        canvas {
+            border: 1px solid #000;
+            display: block;
+            margin: 0 auto;
+        }
+
+        svg {
+            display: block;
+            margin: 20px auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        input, button {
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        video, audio {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML5 Features Demonstration</h1>
+    <div class="container">
+        <h2>New Structural Elements</h2>
+        <header>
+            <h2>Header Section</h2>
+            <p>This is the header section of the page.</p>
+        </header>
+        <nav>
+            <h2>Navigation Section</h2>
+            <p>This is the navigation section of the page.</p>
+        </nav>
+        <article>
+            <h2>Article Section</h2>
+            <p>This is an article section of the page.</p>
+        </article>
+        <section>
+            <h2>Section Element</h2>
+            <p>This is a section within the article.</p>
+        </section>
+        <aside>
+            <h2>Aside Element</h2>
+            <p>This is an aside section of the page.</p>
+        </aside>
+        <footer>
+            <h2>Footer Section</h2>
+            <p>This is the footer section of the page.</p>
+        </footer>
+
+        <h2>Audio and Video</h2>
+        <audio controls>
+            <source src="audio_sample.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <video controls width="320" height="240">
+            <source src="video_sample.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <h2>Form Creation</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>Canvas API</h2>
+        <canvas id="myCanvas" width="200" height="100"></canvas>
+
+        <h2>SVG</h2>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+        </svg>
+
+        <h2>Geo
